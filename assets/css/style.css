@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --orange: #FA8550;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--white);
+}
+
+
+.nav-item{
+    font-size: 1.5rem;
+}
+    
+.nav-logo img {
+    width: 13.125rem;
+}
+
+   /* ===================== Estilizando First-Section ======================= */
+
+.first-section {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-content-section {
+    filter: brightness(70%);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    position: absolute;
+}
+
+.content-text {
+    position: absolute;
+    text-align: start;
+    color: var(--white);
+    padding: 2rem;
+    top: 500px;
+    left: 16.688rem;
+    top: 31.25rem;
+}
+
+.content-text h1 {
+    color: var(--white);
+    font-size: 38.125rem;
+    margin-bottom: 5px;
+    font-size: 95px;
+    line-height: 6 0px;
+}
+
+.content-text span {
+    display: block;
+    width: 15rem;
+    height: .5rem;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin: 20px 0;
+}
+
+.content-text p {
+    font-size: 2rem;
+}
