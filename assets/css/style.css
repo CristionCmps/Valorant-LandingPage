@@ -139,3 +139,53 @@ header {
     color: var(--orange);
 }
 
+/* ===================== Estilizando Three-Section ======================= */
+.three-section {
+    display: flex;
+    background-color: var(--white);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    top: 1080px;
+    left: 0px;
+    height: 605px;
+    gap: 20px; /* Define o espaçamento entre os elementos */
+}
+
+.three-section h2 {
+    color: var(--black);
+    font-size: 60px;
+    opacity: 1;
+    height: 72px;
+    text-align: center;
+    font: normal normal bold 60px/72px Roboto;
+}
+
+.container text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col h3 {
+    font-size: 29px;
+    text-align: center;
+}
+
+.three-section span {
+    display: block;
+    width: 10rem;
+    height: .5rem;
+    border-radius: 20px;
+    background-color: #FA8550;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
