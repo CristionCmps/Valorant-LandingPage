@@ -12,6 +12,7 @@
     --black: #000000;
     --orange: #FA8550;
     --grey: #F8F8F8
+    --greyb: #333333
 }
 
 header {
@@ -57,7 +58,8 @@ header {
 
 .content-text {
     position: absolute;
-    text-align: start;
+    text-align: star
+    t;
     color: var(--white);
     padding: 2rem;
     top: 500px;
@@ -162,6 +164,14 @@ header {
     font: normal normal bold 60px/72px Roboto;
 }
 
+.three-section img{
+    height: 32px;
+}
+
+.three-section p {
+    font-size: 18px;
+}
+
 .container text-center {
     display: flex;
     justify-content: center;
@@ -176,7 +186,7 @@ header {
 }
 
 .col h3 {
-    font-size: 29px;
+    font-size: 24px;
     text-align: center;
 }
 
@@ -212,5 +222,17 @@ header {
 
 .owl-carousel {
     position: absolute;
+}
+
+.five-section{
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    justify-content: center;
+    
+}
+
+.five-section .btn-action {
+    color: var(--white);
 }
 
