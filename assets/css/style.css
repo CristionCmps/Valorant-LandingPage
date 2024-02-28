@@ -11,6 +11,7 @@
     --white: #FFFFFF;
     --black: #000000;
     --orange: #FA8550;
+    --grey: #F8F8F8
 }
 
 header {
@@ -187,5 +188,29 @@ header {
     background-color: #FA8550;
     border-radius: 2rem;
     margin-top: 2rem;
+}
+    
+.four-section {
+    background: var(--grey);
+    margin: 0;
+    height: 660px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.owl-nav button.owl-prev{
+    position: absolute;
+    z-index: 3 !important;
+    background-repeat: no-repeat !important;
+    background-size: 25px 25px !important;
+    background-color: #FA8550 !important;
+    border-radius: 5px;
+    bottom: 27rem;
+    margin: 0 !important;
+}
+
+.owl-carousel {
+    position: absolute;
 }
 
