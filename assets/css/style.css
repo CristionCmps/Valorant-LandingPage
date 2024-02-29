@@ -166,6 +166,7 @@ header {
 
 .three-section img{
     height: 32px;
+    margin-bottom: 5px;
 }
 
 .three-section p {
@@ -183,6 +184,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 5px;
 }
 
 .col h3 {
@@ -200,39 +202,129 @@ header {
     margin-top: 2rem;
 }
     
+/* ===================== Estilizando Four-Section ======================= */
+
 .four-section {
-    background: var(--grey);
+    background-color: #F8F8F8;
     margin: 0;
     height: 660px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
+.item {
+    width: 820px;
+}
 
-.owl-nav button.owl-prev{
+.owl-nav.disabled {
+    display: block !important;
+}
+
+.owl-nav button{
     position: absolute;
     z-index: 3 !important;
     background-repeat: no-repeat !important;
     background-size: 25px 25px !important;
-    background-color: #FA8550 !important;
+    background-color: var(--orange);
     border-radius: 5px;
     bottom: 27rem;
     margin: 0 !important;
 }
 
-.owl-carousel {
-    position: absolute;
-}
-
-.five-section{
-    display: flex;
-    align-items: center;
-    background-color: #333333;
-    justify-content: center;
-    
-}
-
-.five-section .btn-action {
+.element-style {
     color: var(--white);
+    height: 17px;
 }
 
+.owl-nav button.owl-next {
+    width: 40px;
+    height: 40px;
+    background-color: var(--orange) !important;
+    position: absolute;
+    border-radius: 50px !important;
+    right: 80px;
+    top: 42%;
+    background-image: url('../images/seta-direita\ \(1\).png') !important;
+    background-repeat: no-repeat !important;
+    background-size: 20px 20px !important;
+    background-position: center !important;
+}
+
+.owl-nav button.owl-prev {
+    width: 40px;
+    height: 40px;
+    background-color: var(--orange) !important;
+    background-image: url('../images/seta-esquerda\ \(1\).png') !important;
+    background-position: center !important;
+    background-size: 20px 20px !important;
+    background-repeat: no-repeat !important;
+    border-radius: 50px !important;
+    position: absolute;
+    left: 80px;
+    top: 42%;
+}
+
+.owl-theme .owl-dots .owl-dot span  {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border: 1px solid var(--black) !important;
+    background-color: var(--gray);
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background-color: var(--black);
+}
+
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: var(--black);
+}
+
+/* ===================== Estilizando Five-Section ======================= */
+.five-section {
+    display: flex;
+    background-color: var(--black);
+    height: 482px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15rem;
+    opacity: 1;
+}
+
+.five-section h3 {
+    color: var(--white);
+    font-size: 60px;
+    height: 72px;
+    text-align: center;
+    font: normal normal bold 60px/72px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.five-section button {
+    margin-top: 3rem;
+    color: var(--black);
+    padding: 0.5rem 3rem;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* ===================== Estilizando Footer ======================= */
+
+footer  {
+    display: flex;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    height: 50px;
+    align-items: center;
+}
