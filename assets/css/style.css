@@ -11,13 +11,16 @@
     --white: #FFFFFF;
     --black: #000000;
     --orange: #FA8550;
-    --grey: #F8F8F8
-    --greyb: #333333
+    --grey: #F8F8F8 --greyb: #333333
 }
 
 header {
     justify-content: space-between;
     background-color: var(--white);
+}
+
+.btn-menu {
+    display: none;
 }
 
 .nav {
@@ -38,6 +41,7 @@ header {
     height: 30px;
     color: var(--orange);
 }
+
 /* ===================== Estilizando First-Section ======================= */
 .first-section {
     background-size: cover;
@@ -58,8 +62,7 @@ header {
 
 .content-text {
     position: absolute;
-    text-align: star
-    t;
+    text-align: star t;
     color: var(--white);
     padding: 2rem;
     top: 500px;
@@ -80,7 +83,7 @@ header {
     width: 100px;
     height: 5px;
     border-radius: 3px;
-    background-color:var(--white);
+    background-color: var(--white);
     margin-bottom: 20px;
     margin: 20px 0;
 }
@@ -92,8 +95,9 @@ header {
     width: 400px;
     height: 116px;
 }
+
 /* ===================== Estilizando Second-Section ======================= */
-.second-section{
+.second-section {
     display: flex;
     background-color: var(--orange);
     justify-content: center;
@@ -127,7 +131,7 @@ header {
     font-size: 24px;
 }
 
-.btn-action{
+.btn-action {
     margin-top: 3rem;
     background-color: var(--white);
     padding: 0.5rem 3rem;
@@ -152,7 +156,8 @@ header {
     top: 1080px;
     left: 0px;
     height: 605px;
-    gap: 20px; /* Define o espaçamento entre os elementos */
+    gap: 20px;
+    /* Define o espaçamento entre os elementos */
 }
 
 .three-section h2 {
@@ -164,7 +169,7 @@ header {
     font: normal normal bold 60px/72px Roboto;
 }
 
-.three-section img{
+.three-section img {
     height: 32px;
     margin-bottom: 5px;
 }
@@ -201,7 +206,7 @@ header {
     border-radius: 2rem;
     margin-top: 2rem;
 }
-    
+
 /* ===================== Estilizando Four-Section ======================= */
 
 .four-section {
@@ -220,7 +225,7 @@ header {
     display: block !important;
 }
 
-.owl-nav button{
+.owl-nav button {
     position: absolute;
     z-index: 3 !important;
     background-repeat: no-repeat !important;
@@ -232,7 +237,7 @@ header {
 }
 
 .element-style {
-    color: var(--white);
+    color: white;
     height: 17px;
 }
 
@@ -264,7 +269,7 @@ header {
     top: 42%;
 }
 
-.owl-theme .owl-dots .owl-dot span  {
+.owl-theme .owl-dots .owl-dot span {
     width: 10px;
     height: 10px;
     margin-right: 10px;
@@ -295,7 +300,6 @@ header {
 .five-section h3 {
     color: var(--white);
     font-size: 60px;
-    height: 72px;
     text-align: center;
     font: normal normal bold 60px/72px Roboto;
     letter-spacing: 0px;
@@ -316,7 +320,7 @@ header {
 
 /* ===================== Estilizando Footer ======================= */
 
-footer  {
+footer {
     display: flex;
     height: 150px;
     text-align: center;
@@ -327,4 +331,45 @@ footer  {
 footer img {
     height: 50px;
     align-items: center;
+}
+
+/* (min-width: 744px) and */
+@media screen and (max-width: 1133px) {
+    .nav li {
+        display: none;
+    }
+
+    .navbar-img {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-img img {
+        display: flex;
+
+    }
+
+    .btn-menu {
+        display: block;
+    }
+
+    .five-section {
+        height: 100vh;
+        width: 100%;
+        height: 482px;
+    }
+
+    .five-section h3 {
+        font-size: 30px;
+    }
+    
+    .content-text {
+        top: 160px;
+        left: 20px;
+        height: 258px;
+    }
+
+    .img-content-section {
+        display: flex;
+    }
 }
