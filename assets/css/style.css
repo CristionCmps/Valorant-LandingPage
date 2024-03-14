@@ -19,9 +19,54 @@ header {
     background-color: var(--white);
 }
 
-.btn-menu {
+.main-1200 {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.justify-content-between {
+    height: 60px;
+    align-items: center;
+}
+
+.mobile-menu {
     display: none;
 }
+
+#btn-mobile {
+    display: none;
+}
+
+#menu-list a {
+    list-style: none;
+    color: var(--black);
+    font-size: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#menu-list li {
+    list-style-type: none;
+}
+
+
+#menu-list a::after {
+    content: " ";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color: var(--orange);
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s ease;
+}
+
+#menu-list a:hover::after {
+    width: 100%;
+}
+
 
 .nav {
     gap: 1.5rem;
@@ -64,9 +109,7 @@ header {
     position: absolute;
     text-align: star t;
     color: var(--white);
-    padding: 2rem;
     top: 500px;
-    left: 16.688rem;
     top: 10.25rem;
 }
 
@@ -346,11 +389,21 @@ footer img {
 
     .navbar-img img {
         display: flex;
-
     }
 
-    .btn-menu {
+    .mobile-menu {
         display: block;
+        position: absolute;
+        width: 100%;
+        top: 59px;
+    }   
+    
+    #btn-mobile {
+        display: block;
+    }
+    
+    .second-section p {
+        font-size: 20px;
     }
 
     .five-section {
@@ -362,7 +415,7 @@ footer img {
     .five-section h3 {
         font-size: 30px;
     }
-    
+
     .content-text {
         top: 160px;
         left: 20px;
