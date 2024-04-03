@@ -40,14 +40,13 @@
 
 <body>
     <header class="bar-menu main-1200">
+
+        <!-- MENU DESKTOP -->
         <nav class="justify-content-between d-flex">
             <div class="navbar-img">
                 <img src="./assets/image/image.png" alt="logo" width="100rem" height="13.125rem">
                 </a>
             </div>
-            <button id="btn-mobile">
-                <span id="menu"></span>
-            </button>
             <ul id="menu-list" class="nav justify-content-end">
                 <li class="nav-item">
                     <a href="#" class="fw-bold">Informações do Jogo</a>
@@ -74,37 +73,46 @@
                     <a href="#" class="fw-bold">Mais</a>
                 </li>
         </nav>
+        <!-- MENU DESKTOP -->
 
+        <!-- MENU MOBILE -->
         <div class="mobile-menu">
-            <nav id="nav">
-                <ul id="menu-list">
-                    <li class="nav-item">
-                        <a href="#" class="fw-bold">Informações do Jogo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="fw-bold">Mídia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="fw-bold">Notícias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="fw-bold">Placar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="fw-bold">Suporte</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="fw-bold">Social</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="fw-bold">Esports</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="fw-bold">Mais</a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="icon__menu--mobile">
+                <span class="icon-line__menu"></span>
+            </div>
+            <div class="container__menu--mobile">
+                <nav id="nav">
+                    <ul id="menu-list">
+                        <li class="nav-item">
+                            <a href="#" class="fw-bold">Informações do Jogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="fw-bold">Mídia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="fw-bold">Notícias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="fw-bold">Placar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="fw-bold">Suporte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="fw-bold">Social</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="fw-bold">Esports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="fw-bold">Mais</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
+        <!-- MENU MOBILE -->
+
     </header>
     <!-- ============== First Section ============== -->
     <main>
@@ -131,9 +139,7 @@
             <span></span>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer leo quam, laoreet vitae <br> suscipit
                 quis, euismod porta neque. Donec sagittis a eros quis feugiat.</p>
-            <div class="btn-action">
-                <button type="button" class="btn">Ver Mais</button>
-            </div>
+            <button type="button" class="btn__vermais btn__vermais--hover-orange">Ver mais</button>
         </section>
 
         <!-- ============== Three Section ============== -->
@@ -141,23 +147,23 @@
             <h2>Alguns pontos do jogo</h2>
             <span></span>
             <div class="container text-center">
-                <div class="row row-cols-lg-4 row-cols-sm-2">
-                    <div class="col">
+                <div class="row col-lg-12">
+                    <div class="col-lg-3">
                         <img src="./assets/image/pino-de-localizacao.png" alt="loc">
                         <h3>Vários Mapas</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-3">
                         <img src="./assets/image/computador-portatil.png" alt="pc">
                         <h3>Bem Otimizado</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-3">
                         <img src="./assets/image/globo.png" alt="globo">
                         <h3>Servidores Globais</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-3">
                         <img src="./assets/image/contorno-em-forma-de-coracao.png" alt="coracao">
                         <h3>Você vai Adorar</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -181,7 +187,7 @@
             <div class="container-dowload">
                 <h3>Baixe o jogo agora!</h3>
             </div>
-            <button type="button" class="btn btn-light">Ver mais</button>
+            <button type="button" class="btn__vermais btn__vermais--hover-black">Ver mais</button>
         </section>
     </main>
 
