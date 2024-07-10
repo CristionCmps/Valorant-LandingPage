@@ -1,9 +1,13 @@
-# Valorant-LandingPage
+Valorant - LandingPage + Carousel.
+-
+💻 Tecnologias utilizadas: HTML5, Css3 e Java Script.
 
-Projeto de Landing Page + Carousel.
+🛠️ Carousel - Função realizada com biblioteca Owl Carousel.
 
-Tecnologias utilizadas HTML5, Css3 e Java Script.
+📋 Material de Apoio: Bootstrap, Owl Carousel 2. 
 
-Design desktop first, tablet e mobile, focado na experiência do usuário em ambos dispositivos. Responsivo, se adapta perfeitamente em telas de diferentes tamanhos.
+Skills Project: Variáveis de CSS e HTML, Flexbox, e CSS Grid.
 
-Skills Project: Variáveis de CSS, Flexbox, e CSS Grid.
+---
+Design Responsivo - Desktop, Tablet e Mobile. 
+Se adapta perfeitamente em tamanhos diferentes de tela focado na experiência de usuário.
